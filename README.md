@@ -1,16 +1,20 @@
 # The Pi Kneader
 
-A Raspberry Pi that runs my bread dough through a full knead-and-rest programme, so I don't
-have to stand next to the machine with a kitchen timer.
+I bake my own bread, and the tedious part isn't the work — it's the waiting and the looking-up.
+How long does this dough knead? How long does it rest? When does the oven need to go on?
 
-The Pi switches the kneading machine's mains socket through a relay, walks through the whole
-sequence of kneads and breaks, and shows what it's doing on a small OLED. When it needs a human,
-it plays a tune.
+So a Raspberry Pi Model A does it for me. It drives my grain mill and times the kneading
+machine, both switched through a simple relay. I pick the recipe I bake most often, press the
+button, and the Pi walks through the whole sequence of kneads and rests on its own, showing
+what it's doing on a small OLED.
+
+When it needs me — to switch the oven on, to turn the temperature down — the buzzer plays
+music. That way I don't have to keep checking on it either.
 
 ![The controller](images/controller.jpg)
 
-*The finished controller — the kneading machine plugs into the socket on top, the OLED shows
-the programme, and the buttons live underneath.*
+*The finished controller — the machine plugs into the socket on top, the OLED shows where the
+programme has got to, and the buttons live underneath.*
 
 ---
 
@@ -42,8 +46,8 @@ it makes a noise loud enough to fetch someone who can.
 
 ## Hardware
 
-- Raspberry Pi
-- Relay on GPIO 17, switching the kneading machine's socket
+- Raspberry Pi Model A
+- Relay on GPIO 17, switching the socket that drives the mill and the kneading machine
 - SSD1306 OLED (128×64) over SPI — CS on D5, DC on D6, reset on D4
 - Push button on GPIO 26
 - Red LED on GPIO 23
