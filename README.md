@@ -18,6 +18,25 @@ programme has got to, and the buttons live underneath.*
 
 ---
 
+## See it running
+
+<table>
+<tr>
+<td width="50%" align="center">
+<a href="videos/milling.mp4"><img src="images/milling-still.jpg" width="100%" alt="The mill grinding"></a><br>
+<b><a href="videos/milling.mp4">▶ Milling</a></b><br>
+<sub>Fresh flour going straight from the mill into the mixing bowl.</sub>
+</td>
+<td width="50%" align="center">
+<a href="videos/controller-running.mp4"><img src="images/controller-running-still.jpg" width="100%" alt="The controller mid-programme"></a><br>
+<b><a href="videos/controller-running.mp4">▶ The controller mid-run</a></b><br>
+<sub>Countdown to the next step, with the progress bar filling up.</sub>
+</td>
+</tr>
+</table>
+
+---
+
 ## The programme
 
 Press the button and it works through the sequence on its own:
